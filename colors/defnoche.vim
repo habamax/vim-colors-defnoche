@@ -281,6 +281,12 @@ hi link dosbatchImplicit Statement
 hi link shSet Statement
 hi link shQuote Identifier
 
+" R
+hi link rFunction Statement
+hi link rType Statement
+hi link rOperator Normal
+hi link rAssign Normal
+
 " markdown
 hi link markdownH1 Title
 hi link markdownH2 Title
