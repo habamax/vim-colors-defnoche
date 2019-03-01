@@ -26,6 +26,8 @@ image::img_README_3.png[]
 
 image::img_README_4.png[]
 
+image::img_README_5.png[]
+
 == Installation
 
 Manual::
