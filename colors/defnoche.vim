@@ -327,6 +327,21 @@ hi link gitCommitHeader fugitiveHeader
 hi link gitCommitSelectedType Constant
 hi link gitCommitSelectedFile Normal
 
+"" Flog
+hi! link flogDate Comment
+hi! link flogHash Identifier
+hi! link flogAuthor Comment
+hi! link flogGraphEdge0 Special
+hi! link flogGraphEdge1 Constant
+hi! link flogGraphEdge2 String
+hi! link flogGraphEdge3 Statement
+hi! link flogGraphEdge4 Special
+hi! link flogGraphEdge5 Constant
+hi! link flogGraphEdge6 String
+hi! link flogGraphEdge7 Statement
+hi! link flogGraphEdge8 Special
+hi! link flogGraphEdge9 Constant
+
 "" minpac
 hi link minpacName Statement
 
