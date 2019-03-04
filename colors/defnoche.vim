@@ -328,9 +328,9 @@ hi link gitCommitSelectedType Constant
 hi link gitCommitSelectedFile Normal
 
 "" Flog
-hi! link flogDate Comment
-hi! link flogHash Identifier
-hi! link flogAuthor Comment
+hi! link flogDate Identifier
+hi! link flogHash Constant
+hi! link flogAuthor String
 hi! link flogGraphEdge0 Special
 hi! link flogGraphEdge1 Constant
 hi! link flogGraphEdge2 String
