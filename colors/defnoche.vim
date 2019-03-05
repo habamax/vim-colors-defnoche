@@ -412,3 +412,7 @@ hi CtrlPMatch guifg=#1540AD gui=bold
 "" ALE
 hi link ALEWarningSign SignColumn
 hi link ALEErrorSign WarningMsg
+
+"" Rest console
+hi link restHost Underlined
+hi link restKeyword Statement
