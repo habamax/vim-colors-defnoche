@@ -40,7 +40,7 @@ hi DefNocheBold guibg=NONE guifg=#ffffff gui=bold ctermfg=15 ctermbg=0 cterm=bol
 hi Normal guibg=#000000 guifg=#d0d0d0 gui=NONE ctermbg=0 ctermfg=252
 hi Cursor guibg=#ffffff ctermbg=15
 hi lCursor guibg=#ff0000 ctermbg=12
-hi NonText guibg=NONE guifg=#303030 ctermfg=236
+hi NonText guibg=NONE guifg=#303030 gui=NONE ctermfg=236 cterm=NONE
 hi! link SpecialKey NonText
 hi Visual guibg=#103040 guifg=NONE ctermbg=4
 
