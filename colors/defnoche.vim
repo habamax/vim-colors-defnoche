@@ -294,7 +294,12 @@ hi link markdownH3 Title
 hi link markdownH4 Title
 hi link markdownH5 Title
 hi link markdownH6 Title
-hi link markdownHeadingDelimiter Constant
+hi link markdownHeadingDelimiter Special
+hi link markdownHeadingRule Special
+hi link markdownUrl Underlined
+hi link markdownLinkText String
+hi link markdownLinkTextDelimiter Normal
+hi link markdownLinkDelimiter Normal
 hi link markdownListMarker Special
 hi link markdownCode Constant
 hi link markdownCodeDelimiter markdownCode
