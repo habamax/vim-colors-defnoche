@@ -298,8 +298,9 @@ hi link markdownHeadingDelimiter Special
 hi link markdownHeadingRule Special
 hi link markdownUrl Underlined
 hi link markdownLinkText String
-hi link markdownLinkTextDelimiter Normal
-hi link markdownLinkDelimiter Normal
+hi link markdownLinkTextDelimiter Identifier
+hi link markdownLinkDelimiter Identifier
+hi link markdownUrlDelimiter Identifier
 hi link markdownListMarker Special
 hi link markdownCode Constant
 hi link markdownCodeDelimiter markdownCode
