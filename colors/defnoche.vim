@@ -424,10 +424,11 @@ hi link restHost Underlined
 hi link restKeyword Statement
 
 "" Plantuml https://github.com/aklt/plantuml-syntax
-hi link plantumlPreProc Identifier
+hi link plantumlPreProc Statement
 hi link plantumlKeyword Statement
 hi link plantumlTypeKeyword Statement
 hi link plantumlColonLine String
+hi link plantumlActivityLabel Normal
 hi link plantumlHorizontalArrow Special
 hi link plantumlDirectedOrVerticalArrowLR Special
 hi link plantumlDirectedOrVerticalArrowRL Special
