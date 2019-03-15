@@ -321,7 +321,7 @@ hi! link gitKeyword DefNocheBold
 hi link gitIdentityKeyword gitKeyword
 hi link fugitiveModifier Statement
 hi link fugitiveSymbolicRef Constant
-hi link diffIndexLine Comment
+hi link diffIndexLine Identifier
 hi link diffFile Title
 hi link diffNewFile Title
 hi link diffLine fugitiveHeading
