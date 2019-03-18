@@ -34,7 +34,7 @@ endif
 let g:colors_name = 'defnoche'
 
 "" Helper color groups
-hi DefNocheBold guibg=NONE guifg=#ffffff gui=bold ctermfg=15 ctermbg=0 cterm=bold
+hi DefNocheBold guibg=NONE guifg=#ffffff gui=bold ctermfg=15 ctermbg=NONE cterm=bold
 
 "" General
 hi Normal guibg=#000000 guifg=#d0d0d0 gui=NONE ctermbg=0 ctermfg=252
@@ -372,7 +372,7 @@ hi link netrwDateSep Normal
 hi link netrwTimeSep Normal
 hi link netrwExe Constant
 hi link netrwDir Directory
-hi link netrwClassify Normal
+hi link netrwClassify Directory
 hi link netrwTreeBar Delimiter
 
 "" quickfix
