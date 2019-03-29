@@ -18,6 +18,8 @@ GUI and 256color terms only.
 
 == Screenshots
 
+NOTE: Initially comments were italic as you can see on the screenshots. But now they are not. :)
+
 image::img_README_1.png[]
 
 image::img_README_2.png[]
