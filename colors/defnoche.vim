@@ -327,10 +327,13 @@ hi diffText guibg=#2f2f09 guifg=NONE gui=NONE ctermbg=3 ctermfg=NONE
 hi diffDelete guibg=#492929 guifg=#707070 gui=NONE ctermbg=52 ctermfg=239
 
 "" fugitive
+hi! link fugitiveUnstagedHeading DefNocheBold
+hi! link fugitiveStagedHeading DefNocheBold
 hi! link fugitiveHeader DefNocheBold
 hi! link fugitiveHeading DefNocheBold
 hi! link gitKeyword DefNocheBold
 hi link gitIdentityKeyword gitKeyword
+hi link fugitiveUnstagedModifier Statement
 hi link fugitiveModifier Statement
 hi link fugitiveSymbolicRef Constant
 hi link diffIndexLine Identifier
