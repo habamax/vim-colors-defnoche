@@ -334,6 +334,7 @@ hi! link fugitiveHeading DefNocheBold
 hi! link gitKeyword DefNocheBold
 hi link gitIdentityKeyword gitKeyword
 hi link fugitiveUnstagedModifier Statement
+hi link fugitiveStagedModifier Statement
 hi link fugitiveModifier Statement
 hi link fugitiveSymbolicRef Constant
 hi link diffIndexLine Identifier
