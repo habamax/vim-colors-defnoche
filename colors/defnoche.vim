@@ -464,3 +464,15 @@ hi link plantumlActivityLabel Normal
 hi link plantumlHorizontalArrow Special
 hi link plantumlDirectedOrVerticalArrowLR Special
 hi link plantumlDirectedOrVerticalArrowRL Special
+
+"" DoOutline
+hi link DoOutlineLevel0 Title
+hi link DoOutlineLevel1 Statement
+hi link DoOutlineLevel2 Constant
+hi link DoOutlineLevel3 String
+hi link DoOutlineLevel4 Normal
+hi link DoOutlineLevel5 Identifier
+hi link DoOutlineLevel6 Normal
+hi link DoOutlineLevel7 Identifier
+hi link DoOutlineLevel8 Normal
+hi link DoOutlineLevel9 Identifier
