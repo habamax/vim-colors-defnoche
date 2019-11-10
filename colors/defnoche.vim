@@ -128,6 +128,9 @@ hi link vimHiCtermColor Constant
 hi link vimCommentTitle Constant
 hi link vimLineComment Comment
 hi link vimCommentString Comment
+hi link vimOption Normal
+hi link vimSubstPat Normal
+hi link vimCmdSep Normal
 
 " python
 hi link pythonInclude Statement
