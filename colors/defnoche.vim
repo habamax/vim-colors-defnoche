@@ -490,3 +490,7 @@ hi link DoOutlineLevel6 Normal
 hi link DoOutlineLevel7 Identifier
 hi link DoOutlineLevel8 Normal
 hi link DoOutlineLevel9 Identifier
+
+"" vim-lsp
+hi LspErrorHighlight gui=undercurl guisp=red ctermfg=red cterm=bold
+hi LspWarningHighlight gui=undercurl guisp=yellow ctermfg=yellow
