@@ -117,6 +117,8 @@ hi Special guifg=#00a3ab gui=NONE ctermfg=38
 
 hi Underlined guifg=#8798e5 gui=underline ctermbg=0 ctermfg=68
 
+hi! link Conceal Comment
+
 " vim
 hi link vimFuncName Statement
 hi link vimHighlight Statement
