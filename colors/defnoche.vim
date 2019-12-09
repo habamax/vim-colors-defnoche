@@ -420,6 +420,11 @@ hi link netrwClassify Directory
 hi link netrwTreeBar Delimiter
 hi link netrwMarkFile Statement
 
+"" dirvish
+hi link dirvishSuffix Identifier
+hi link dirvishColumnHead Comment
+hi link dirvishPathHead Comment
+
 "" quickfix
 hi link qfFilename Comment
 hi link qfSeparator Special
