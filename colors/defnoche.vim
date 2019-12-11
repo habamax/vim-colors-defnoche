@@ -72,7 +72,7 @@ hi PmenuThumb guibg=#808080 ctermbg=244
 hi QuickFixLine guibg=#707070 guifg=#d0d0d0 gui=none ctermbg=3 ctermfg=252
 hi! link ColorColumn CursorLine
 hi EndOfBuffer guifg=#444444 ctermbg=238
-hi MatchParen guibg=#3a3a3a ctermbg=237
+hi MatchParen guibg=#303030 ctermbg=236
 
 
 "" Syntax
