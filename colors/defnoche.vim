@@ -338,6 +338,7 @@ hi link markdownCode Constant
 hi link markdownCodeDelimiter markdownCode
 
 " asciidoctor
+hi link asciidoctorTitle Title
 hi link asciidoctorListMarker Special
 hi link asciidoctorOption Special
 hi link asciidoctorMacro Special
