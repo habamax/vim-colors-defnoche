@@ -79,6 +79,7 @@ hi MatchParen guibg=#303030 ctermbg=236
 
 " generic group-names
 hi Comment guifg=#5e5e5e gui=NONE ctermfg=241
+hi Conceal guifg=#5e5e5e guibg=NONE gui=NONE ctermfg=241 ctermbg=NONE cterm=NONE
 
 hi Constant guifg=#e6a657 gui=NONE ctermfg=179
 hi String guifg=#49b34e gui=NONE ctermfg=77
@@ -117,8 +118,6 @@ hi Special guifg=#00a3ab gui=NONE ctermfg=38
 " hi! link Debug Special
 
 hi Underlined guifg=#8798e5 gui=underline ctermbg=0 ctermfg=68
-
-hi! link Conceal Comment
 
 " vim
 hi link vimFuncName Statement
