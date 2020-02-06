@@ -90,7 +90,7 @@ hi String guifg=#49b34e gui=NONE ctermfg=77
 " hi! link Boolean Constant
 " hi! link Float Constant
 
-hi Identifier guifg=#909090 gui=NONE ctermfg=245
+hi Identifier guifg=#949494 gui=NONE ctermfg=246
 " hi! link Function Identifier
 
 hi Statement guifg=#f070f0 gui=NONE ctermfg=170
@@ -122,7 +122,7 @@ hi Special guifg=#00a3ab gui=NONE ctermfg=38
 hi Underlined guifg=#8798e5 gui=underline ctermbg=0 ctermfg=68
 
 " vim
-hi link vimFuncName Statement
+hi link vimFuncName Identifier
 hi link vimHighlight Statement
 hi link vimVar DefNocheNormal
 hi link vimOper DefNocheNormal
