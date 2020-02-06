@@ -58,7 +58,7 @@ hi StatuslineTermNC guibg=#005f87 guifg=#9b9b9b gui=NONE ctermbg=24 ctermfg=237 
 hi VertSplit guibg=#3a3a3a guifg=#3a3a3a gui=NONE ctermbg=237 ctermfg=237 cterm=NONE
 hi! link TabLine StatusLineNC
 hi! link TabLineFill TabLine
-hi! link TabLineSel Normal
+hi! link TabLineSel DefNocheNormal
 hi WildMenu guibg=#ffff00 guifg=#000000 gui=NONE ctermbg=11 ctermfg=16
 hi Folded guibg=#252525 guifg=#909090 gui=NONE ctermbg=235 ctermfg=246 cterm=NONE
 hi! link FoldColumn Folded
@@ -341,10 +341,18 @@ hi link markdownCodeDelimiter markdownCode
 
 " asciidoctor
 hi link asciidoctorTitle Title
-hi link asciidoctorListMarker Special
-hi link asciidoctorOption Special
 hi link asciidoctorMacro Special
-hi asciidoctorIndented guifg=#949494 ctermfg=246
+hi link asciidoctorListMarker Special
+hi link asciidoctorCaption Identifier
+hi asciidoctorOption guifg=#505050
+hi link asciidoctorBlock asciidoctorOption
+hi link asciidoctorBlockOptions asciidoctorBlock
+hi link asciidoctorTableCell asciidoctorBlock
+hi link asciidoctorAttribute Constant
+hi asciidoctorCode guifg=#a0a0a0 guibg=#202020 ctermfg=240
+hi asciidoctorIndented guifg=#909090 guibg=NONE ctermfg=240
+hi link asciidoctorLiteralBlock DefNocheNormal
+hi link asciidoctorListingBlock DefNocheNormal
 
 "" Diff
 hi diffAdd guibg=#294929 ctermbg=22
@@ -438,8 +446,8 @@ hi! link CtrlPMode1 StatusLine
 hi! link CtrlPMode2 StatusLine
 hi CtrlPMatch guifg=#0087d7 gui=bold ctermfg=33 cterm=bold
 hi link CtrlPNoEntries WarningMsg
-hi! link CtrlPPrtText Normal
-hi! link CtrlPPrtBase Normal
+hi! link CtrlPPrtText DefNocheNormal
+hi! link CtrlPPrtBase DefNocheNormal
 hi! link CtrlPBufname Comment
 hi! link CtrlPBufferPath Comment
 hi! link CtrlPTagKind Statement
@@ -530,7 +538,7 @@ hi Lf_hl_stlFuzzyMode guibg=#3c3c3c guifg=#909090 gui=NONE ctermbg=241 ctermfg=2
 hi Lf_hl_stlTotal guibg=#3c3c3c guifg=#909090 gui=NONE ctermbg=241 ctermfg=252
 hi Lf_hl_stlBlank guibg=#5c5c5c guifg=#909090 gui=NONE ctermbg=241 ctermfg=252
 
-hi! link Lf_hl_popup_window Normal
+hi! link Lf_hl_popup_window DefNocheNormal
 hi! link Lf_hl_popup_inputMode StatusLine 
 hi! link Lf_hl_popup_inputText StatusLineNC
 hi! link Lf_hl_popup_prompt StatusLine
